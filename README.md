@@ -1,7 +1,7 @@
 <h1>Pemrograman Berbasis Obyek</h1>
 
-Dosen : Nanang F. Rozi
+<h2>Dosen : Nanang F. Rozi</h2>
 
-Nama : Bariq Qushoyyi Shobriy
-NPM : 06.2019.1.07171
-Kelas : V
+<p>Nama : Bariq Qushoyyi Shobriy</p>
+<p>NPM : 06.2019.1.07171</p>
+<p>Kelas : V</p>
