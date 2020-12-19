@@ -12,37 +12,27 @@ package Entity;
 public class Bariq07171_DaftarPasienEntity {
 
     private Bariq07171_PasienEntity pasien;
-    private boolean isRegistered;
-    private int indexPoli;
+    private int Poli;
 
-    public Bariq07171_DaftarPasienEntity(Bariq07171_PasienEntity pasien, boolean isRegistered, int indexPoli) {
+    public Bariq07171_DaftarPasienEntity(Bariq07171_PasienEntity pasien, int Poli) {
         this.pasien = pasien;
-        this.isRegistered = isRegistered;
-        this.indexPoli = indexPoli;
+        this.Poli = Poli;
     }
 
     public void setPasien(Bariq07171_PasienEntity pasien) {
         this.pasien = pasien;
     }
 
-    public void setIsRegistered(boolean isRegistered) {
-        this.isRegistered = isRegistered;
-    }
-
-    public void setIndexPoli(int indexPoli) {
-        this.indexPoli = indexPoli;
-    }
-
     public Bariq07171_PasienEntity getPasien() {
         return pasien;
     }
 
-    public boolean isRegistered() {
-        return isRegistered;
+    public int getNamaPoli() {
+        return Poli;
     }
 
-    public int getIndexPoli() {
-        return indexPoli;
+    public void setNamaPoli(int Poli) {
+        this.Poli = Poli;
     }
-
+   
 }

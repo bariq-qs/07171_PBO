@@ -11,20 +11,20 @@ import java.util.Date;
  *
  * @author Bariq Qushoyyi
  */
-public class Bariq07171_DokterEntity extends Bariq07171_WargaAbstractEntity {
+public class Bariq07171_DokterEntity extends Bariq07171_PasienEntity {
 
-    private String Poli;
+    private int Poli;
 
-    public Bariq07171_DokterEntity(String Poli, String password, String nama, String no_telp, String alamat, String jeniskelamin, int nik, Date tgllahir) {
+    public Bariq07171_DokterEntity(int Poli, String password, String nama, String no_telp, String alamat, String jeniskelamin, int nik, Date tgllahir) {
         super(password, nama, no_telp, alamat, jeniskelamin, nik, tgllahir);
         this.Poli = Poli;
     }
 
-    public String getPoli() {
+    public int getPoli() {
         return Poli;
     }
     
-    public void DokterEntity(String Poli){
+    public void setPoli(int Poli){
         this.Poli = Poli;
     }
 }
